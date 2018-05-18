@@ -1,14 +1,12 @@
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 
-import Home from './screens/Home';
+import RootNavigator from './navigation/RootNavigator';
 
 export default class App extends React.Component {
   render() {
     return (
-      <View style={styles.container}>
-        <Home />
-      </View>
+        <RootNavigator />
     );
   }
 }
